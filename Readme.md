@@ -51,3 +51,5 @@ ipfs daemon &
 
 ipfs name publish "$hash"
 ```
+
+The first time you run the mirroring commands, a new [IPNS](https://docs.ipfs.io/guides/concepts/ipns/) will be output, update [sources.list](sources.list) with your IPNS and then after each sync that IPNS will be updated to point to the latest IPFS hash of the mirror.
